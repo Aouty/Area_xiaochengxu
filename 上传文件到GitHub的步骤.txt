@@ -1,0 +1,14 @@
+1、在GitHub上新建一个repository，
+2、本地创建一个文件夹，然后在Git窗口中进入该文件夹
+3、使用 git init 命令 ，初始化一个git 本地仓库（项目）,会在本地创建一个 .git 的文件夹
+4、//添加远程仓库，使用
+git remote add origin https://github.com/Aouty/Area_xiaochengxu.git
+5、将Github上的仓库pull到本地文件夹，使用命令：
+git pull origin master 
+6、将要上传的文件，复制到刚刚创建的文件夹
+7、(将文件保存到缓存区)，使用
+git add . 或者 git add + 文件名
+8、（文件保存到本地仓库），使用
+git commit -m '描述新添加的文件内容'  (就是注释)   
+9、将本地仓库推送到远程仓库，使用
+git push origin master
